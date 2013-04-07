@@ -19,6 +19,9 @@ command -h
 # In case you forget the name of a command, print possible commands relating to any given word:
 apropos word
 
+# The equivalent to apropos, but for manual pages:
+man -k word
+
 # View index of help pages:
 info
 
@@ -61,7 +64,7 @@ dd
 parted
 
 # Filesystem creation tool:
-mkfs
+mkfs.filesystem
 
 **** System Administration:
 
